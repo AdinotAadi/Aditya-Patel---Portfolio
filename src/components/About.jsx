@@ -17,7 +17,7 @@ const About = () => {
 				</p>
 				<br />
 				<p className="text-xl">
-					I started with python and now I can code in 4-5 different languges
+					I started with python and now I can code in 4-5 different languages
 					with varying degree of proficiency and I am constantly trying to
 					improve and grow as a software developer.
 				</p>
