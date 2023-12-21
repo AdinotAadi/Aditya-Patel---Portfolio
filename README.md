@@ -22,7 +22,7 @@ Welcome to my portfolio website! This project is built using React and styled wi
 - **Styling:** Tailwind CSS
 - **Deployment:** [![Netlify Status](https://api.netlify.com/api/v1/badges/7b9dd24d-0dc9-42c5-bb1d-aabce2684bd2/deploy-status)](https://app.netlify.com/sites/7b9dd24d-0dc9-42c5-bb1d-aabce2684bd2)
 
-## Bonus Points (Evaluation Criteria)
+## Key Aspects
 
 - [x] Deployed on Netlify
 - [x] Using a Frontend Framework (React)
