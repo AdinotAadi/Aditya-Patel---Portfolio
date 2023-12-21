@@ -1,8 +1,15 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.webp";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import resume from "../assets/portfolio/resume.pdf";
 
 const Home = () => {
+	const handleDownloadResume = () => {
+		const link = document.createElement("a");
+		link.href = resume;
+		link.download = "resume.pdf";
+		link.click();
+	};
 	return (
 		<div
 			name="home"
@@ -18,8 +25,11 @@ const Home = () => {
 						Software Developer.
 					</p>
 					<div>
-						<button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-300 to-blue-500 hover:scale-110 hover:bg-gradient-to-r hover:from-blue-500 to hover:to-blue-900 duration-200 cursor-pointer hover:font-bold">
-							Portfolio
+						<button
+							className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-300 to-blue-500 hover:scale-110 hover:bg-gradient-to-r hover:from-blue-500 to hover:to-blue-900 duration-200 cursor-pointer hover:font-bold"
+							onClick={handleDownloadResume}
+						>
+							Download my resume!
 							<span className="group-hover:rotate-90 duration-200">
 								<MdKeyboardArrowRight size={20} />
 							</span>
