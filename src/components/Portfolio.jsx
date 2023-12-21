@@ -1,10 +1,10 @@
 import React from "react";
-import TEDxXIE from "../assets/portfolio/TEDxXIE.png";
-import ISRGAN from "../assets/portfolio/ISRGAN.png";
-import MRS from "../assets/portfolio/MRS.png";
-import XIEFest from "../assets/portfolio/XIEFest.png";
-import PassMan from "../assets/portfolio/PassMan.png";
-import Glassmorphism from "../assets/portfolio/Glassmorphism.png";
+import TEDxXIE from "../assets/portfolio/TEDxXIE.webp";
+import ISRGAN from "../assets/portfolio/ISRGAN.webp";
+import MRS from "../assets/portfolio/MRS.webp";
+import XIEFest from "../assets/portfolio/XIEFest.webp";
+import PassMan from "../assets/portfolio/PassMan.webp";
+import Glassmorphism from "../assets/portfolio/Glassmorphism.webp";
 
 const Portfolio = () => {
 	const portfolios = [
