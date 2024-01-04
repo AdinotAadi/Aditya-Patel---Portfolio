@@ -14,7 +14,7 @@ const Portfolio = () => {
 			src: TEDxXIE,
 			githubLink: "https://github.com/AdinotAadi/tedxxie",
 			projectLink: "https://adinotaadi.github.io/tedxxie/",
-			technologies: ["HTML", "CSS", "JS"],
+			technologies: ["React JS", "CSS", "JS"],
 		},
 		{
 			id: 2,
