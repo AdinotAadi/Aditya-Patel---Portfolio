@@ -13,7 +13,7 @@ const Portfolio = () => {
 			name: "TEDxXIE",
 			src: TEDxXIE,
 			githubLink: "https://github.com/AdinotAadi/tedxxie",
-			projectLink: "https://adinotaadi.github.io/tedxxie/",
+			projectLink: "https://react-tedx.netlify.app/",
 			technologies: ["React JS", "CSS", "JS"],
 		},
 		{
