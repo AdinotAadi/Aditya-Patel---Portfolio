@@ -12,9 +12,9 @@ const Portfolio = () => {
 			id: 1,
 			name: "TEDxXIE",
 			src: TEDxXIE,
-			githubLink: "https://github.com/AdinotAadi/tedxxie",
+			githubLink: "https://github.com/AdinotAadi/tedx-react-tailwind",
 			projectLink: "https://react-tedx.netlify.app/",
-			technologies: ["React JS", "CSS", "JS"],
+			technologies: ["React JS", "Tailwind CSS", "JS"],
 		},
 		{
 			id: 2,
