@@ -13,7 +13,7 @@ const Portfolio = () => {
 			name: "TEDxXIE",
 			src: TEDxXIE,
 			githubLink: "https://github.com/AdinotAadi/tedxxie",
-			projectLink: "https://adinotaadi.github.io/tedxxie/",
+			projectLink: "https://tedxxie.vercel.app",
 			technologies: ["HTML", "CSS", "JS"],
 		},
 		{
@@ -67,8 +67,7 @@ const Portfolio = () => {
 	return (
 		<div
 			name="projects"
-			className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-full"
-		>
+			className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-full">
 			<div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
 				<div className="pb-8">
 					<p className="text-4xl font-bold inline border-b-4 border-gray-500">
@@ -103,8 +102,7 @@ const Portfolio = () => {
 												href={projectLink}
 												target="_blank"
 												rel="noopener noreferrer"
-												className="w-1/2 px-6 py-3 m-4 text-gray-500 hover:scale-110 hover:text-white duration-200"
-											>
+												className="w-1/2 px-6 py-3 m-4 text-gray-500 hover:scale-110 hover:text-white duration-200">
 												View
 											</a>
 										) : null}
@@ -115,8 +113,7 @@ const Portfolio = () => {
 												rel="noopener noreferrer"
 												className={`w-1/2 px-6 py-3 m-4 text-gray-500 hover:scale-110 hover:text-white duration-200 ${
 													!projectLink ? "mx-auto" : ""
-												}`}
-											>
+												}`}>
 												GitHub
 											</a>
 										)}
