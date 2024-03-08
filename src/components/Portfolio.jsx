@@ -12,6 +12,7 @@ const Portfolio = () => {
 			id: 1,
 			name: "TEDxXIE",
 			src: TEDxXIE,
+
 			githubLink: "https://github.com/AdinotAadi/tedxxie",
 			projectLink: "https://tedxxie.vercel.app",
 			technologies: ["HTML", "CSS", "JS"],
